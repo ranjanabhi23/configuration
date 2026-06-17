@@ -3,7 +3,7 @@ spring:
     name: AmazonProductService
 
   datasource:
-    url: jdbc:mysql://localhost:3306/orderdb_dev
+    url: jdbc:mysql://localhost:3306/amazon
     username: root
     password: SqlKodewala25@
     driver-class-name: com.mysql.cj.jdbc.Driver
