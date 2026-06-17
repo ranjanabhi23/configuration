@@ -1,7 +1,7 @@
 
 spring:
   application:
-    name: AmazonPaymentService
+    name: AmazonPickupService
   datasource:
     url: jdbc:mysql://localhost:3306/amazon
     username: root
