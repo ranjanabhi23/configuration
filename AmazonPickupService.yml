@@ -13,7 +13,7 @@ spring:
     show-sql: true
     database-platform: org.hibernate.dialect.MySQLDialect
 server:
-  port: 8086
+  port: 8087
 eureka:
   client:
     register-with-eureka: true
