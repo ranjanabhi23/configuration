@@ -2,7 +2,7 @@
 
 spring:
   application:
-    name: AmazonPickupService
+    name: AmazonCheckoutService
   datasource:
     url: jdbc:mysql://localhost:3306/amazon
     username: root
