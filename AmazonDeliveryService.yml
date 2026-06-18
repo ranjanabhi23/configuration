@@ -1,1 +1,23 @@
 
+
+spring:
+  application:
+    name: AmazonPickupService
+  datasource:
+    url: jdbc:mysql://localhost:3306/amazon
+    username: root
+    password: SqlKodewala25@
+    driver-class-name: com.mysql.cj.jdbc.Driver
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.MySQLDialect
+server:
+  port: 8089
+eureka:
+  client:
+    register-with-eureka: true
+    fetch-registry: true
+    service-url:
+      defaultZone: http://localhost:8761/eureka/
