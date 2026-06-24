@@ -1,9 +1,14 @@
 
-
-server:
+	server:
   port: 8090
 
 spring:
+  config:
+    import: "optional:configserver:http://localhost:8888"
+
+  application:
+    name: auth-service
+
   datasource:
     url: jdbc:mysql://localhost:3306/order_auth
     username: root
@@ -19,6 +24,5 @@ eureka:
   client:
     service-url:
       defaultZone: http://localhost:8761/eureka/
-
     register-with-eureka: true
     fetch-registry: true
